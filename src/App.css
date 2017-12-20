@@ -1,0 +1,165 @@
+
+@font-face {
+  font-family: ScalaSansWeb;
+  src: url("./fonts/ScalaSansWeb.woff") format("woff")
+}
+#logoInvitae{
+  position: relative;
+  top:30px;
+  left: 40px;
+  width: 70px;
+}
+
+svg.sun {
+  position: absolute;
+  top: -10px;
+  left: 650px;
+  z-index: 9;
+  font-size: 11px;
+  font-weight: lighter;
+  top: 121px;
+  left: 50%;
+  margin-left: -225px;
+
+
+}
+svg.sun text {
+  fill: #fff
+}
+.App {
+  text-align: center;
+  font-family: ScalaSansWeb;
+}
+div.react-autosuggest__container{
+  margin: 50px auto 20px auto;
+  width: 400px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+div.react-autosuggest__container input{
+  width: 300px;
+  margin: auto;
+  font-family: ScalaSansWeb;
+  font-size: 26px;
+  padding: 8px 5px 5px 5px;
+  border: 1px solid #11ae96;
+  border-left: 1px solid #11ae96;
+  border-bottom: 2px solid #11ae96;
+  color: #333;
+  box-shadow: 2px 1px 3px #11ae96;
+  border-radius: 5px;
+}
+div.react-autosuggest__container {
+  margin: 50px auto 20px auto;
+  width: 315px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+div#react-autowhatever-1.react-autosuggest__suggestions-container--open{
+  height: auto;
+  overflow: auto;
+  border: 1px solid #acacac;
+  background: #FFF;
+}
+.react-autosuggest__suggestion{
+  padding: 5px;
+  list-style: none;
+  border:solid 1px #11ae96;
+  font-size: 16px;
+  font-family: ScalaSansWeb;
+
+}
+.react-autosuggest__suggestion:nth-child(even) {background: #ececec}
+.react-autosuggest__suggestion:nth-child(odd) {background: #FFF}
+
+ul.react-autosuggest__suggestions-list {
+  -webkit-padding-start: 0px;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  margin: 2px;
+}
+
+.react-autosuggest__suggestion:hover{
+  color: #02806c;
+  border:solid 1px #11ae96;
+  background-color: #b4f1e7;
+  cursor: pointer;
+}
+
+td{
+  padding: 9px 17px 7px 9px;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+
+}
+table{
+  border: solid 1px #11ae96;
+  width: 90%;
+  margin: 10px auto;
+  overflow: auto;
+}
+tr{
+  width:100%;
+}
+tr.odd{
+  background-color: #F2F2F2;
+}
+tr:hover td {
+  background-color: #b7e7df;
+  color: #000;
+}
+th{
+  font-family: 'ScalaSansWeb';
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  text-align: left;
+  background-color: #1a989e;
+  white-space: nowrap;
+  padding: 9px 17px 6px 9px;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+.collapsable-content {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+.arrow{
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+.arrow.expanded{
+  transform: rotate(90deg);
+}
+.arrayList{
+  max-height: 0px;
+  height: auto;
+  overflow: auto;
+  -webkit-transition: max-height 0.25s ease-in-out;
+  -moz-transition: max-height 0.25s ease-in-out;
+  -ms-transition: max-height 0.25s ease-in-out;
+  -o-transition: max-height 0.25s ease-in-out;
+  transition: max-height 0.25s ease-in-out;
+  padding: 0 0 0 0;
+  display: inline-block;
+  width: 209px;
+}
+.arrayList.expanded {
+  max-height: 1220px;
+}
+.arrayListItem{
+  font-size: 12px;
+  border: #F2F2F2 solid 1px;
+  padding: 5px;
+  background: white;
+  list-style: none;
+}
+.arrayListItem:nth-child(even) {background-color: #1a989e; color: white}
+.arrayListItem:nth-child(odd) {background-color: white}

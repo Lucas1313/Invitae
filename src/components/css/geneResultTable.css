@@ -1,0 +1,15 @@
+.genesTable{
+    position: relative;
+    z-index: 10;
+    background-color: #FFFFFF;
+}
+.arrayListItem {
+    font-size: 12px;
+    border: #F2F2F2 solid 1px;
+    padding: 5px;
+}
+.ascArrow{
+    position: absolute;
+    display: inline-block;
+    top: 12px;
+}

@@ -1,0 +1,13 @@
+Assignment
+
+Create a web client that allows a user to search for a list of variants by gene name. Display the results of the search, including attributes returned for each variant.
+
+Resources
+
+Two APIs are available:
+http://clinvitae.invitae.com/api/v1/variants?q=ABCD1 - Returns a list of variants with data for a gene.
+http://clinvitae.invitae.com/api/v1/suggest?genes=AB - Returns a list gene names whose first characters match the incoming query.
+http://clinvitae.invitae.com/ is available as a reference.
+It is NOT meant for you to copy in full. Our goal is to learn about your technical and design abilities, not to clone Clinvitae.
+
+Assume a one-to-many relationship between gene and variant.
